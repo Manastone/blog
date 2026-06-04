@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\Ŭ�ε� �ڵ��� �ٽ� ��� 5����\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\Ŭ�ε� �ڵ��� �ٽ� ��� 5����\\\\images\")",
+      "PowerShell(pip install playwright)",
+      "PowerShell(python -m playwright install chromium)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "PowerShell(Start-Process \"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\Ŭ�ε� �ڵ��� �ٽ� ��� 5����\\\\final.html\")",
+      "PowerShell(cmd /c \"rd /s /q \"\"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\Ŭ�ε� �ڵ��� �ٽ� ��� 5����\"\" && del /q \"\"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\test-draft.md\"\"\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\�Ϻ� �������� �������� �ϱ� ���� 5���� ����Ŭ��\")",
+      "WebFetch(domain:lala-tamago.com)",
+      "WebFetch(domain:kiki-golfer.com)",
+      "WebFetch(domain:kumamotochuo.com)",
+      "WebFetch(domain:golf-medley.com)",
+      "WebFetch(domain:experiences.myrealtrip.com)",
+      "WebFetch(domain:triple.guide)",
+      "WebFetch(domain:masalibertyblog.com)",
+      "WebFetch(domain:www.tripstore.kr)",
+      "WebFetch(domain:kumamotokuko-cc.co.jp)",
+      "WebFetch(domain:booking.gora.golf.rakuten.co.jp)",
+      "WebFetch(domain:atsumaru-golf-aso.jp)",
+      "WebFetch(domain:kr.trip.com)",
+      "WebFetch(domain:www.akamizu.jp)",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\�Ϻ� �������� �������� �ϱ� ���� 5���� ����Ŭ��\\\\images\")"
+    ]
+  }
+}

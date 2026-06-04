@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>블로그</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #f8f8f8;
+      font-family: 'Noto Sans KR', '맑은 고딕', 'Malgun Gothic', sans-serif;
+      color: #222222;
+      font-size: 16px;
+      line-height: 1.9;
+    }
+    .wrapper { max-width: 700px; margin: 0 auto; padding: 60px 20px 80px; }
+    .site-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: #111;
+      margin-bottom: 8px;
+    }
+    .site-desc {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 48px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid #eeeeee;
+    }
+    .post-list { display: flex; flex-direction: column; gap: 28px; }
+    .post-card {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      transition: box-shadow 0.2s;
+    }
+    .post-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); }
+    .post-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+    }
+    .post-card .card-body { padding: 24px; }
+    .post-card .card-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #111;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+    .post-card .card-desc {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.7;
+    }
+    .post-card .card-link {
+      display: inline-block;
+      margin-top: 16px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #4a90e2;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="site-title">블로그</div>
+    <div class="site-desc">유용한 정보를 모아 전달합니다.</div>
+
+    <div class="post-list">
+
+      <a class="post-card" href="./%EC%B9%B4%EC%88%98%EB%A6%AC%20%EC%B6%9C%EC%9E%A5%EC%A0%95%EB%B9%84%EA%B0%80%20%EC%A0%95%EB%B9%84%EC%86%8C%EB%B0%A9%EB%AC%B8%EB%B3%B4%EB%8B%A4%20%EC%A2%8B%EC%9D%80%EC%A0%90%205%EA%B0%80%EC%A7%80/final.html">
+        <img src="./%EC%B9%B4%EC%88%98%EB%A6%AC%20%EC%B6%9C%EC%9E%A5%EC%A0%95%EB%B9%84%EA%B0%80%20%EC%A0%95%EB%B9%84%EC%86%8C%EB%B0%A9%EB%AC%B8%EB%B3%B4%EB%8B%A4%20%EC%A2%8B%EC%9D%80%EC%A0%90%205%EA%B0%80%EC%A7%80/images/thumbnail.png" alt="카수리 출장정비 썸네일" onerror="this.style.display='none'">
+        <div class="card-body">
+          <div class="card-title">카수리 출장정비가 정비소 방문보다 좋은 점 5가지</div>
+          <div class="card-desc">전문 정비사가 직접 찾아오는 출장 자동차 정비 서비스, 카수리를 직접 써본 후기와 정비소 방문과의 차이를 정리했습니다.</div>
+          <span class="card-link">자세히 보기 →</span>
+        </div>
+      </a>
+
+      <a class="post-card" href="./%EC%9D%BC%EB%B3%B8%20%EA%B5%AC%EB%A7%88%EB%AA%A8%ED%86%A0%20%EA%B3%A8%ED%94%84%EC%97%AC%ED%96%89%20%ED%95%98%EA%B8%B0%20%EC%A2%8B%EC%9D%80%205%EA%B0%9C%EC%9D%98%20%EA%B3%A8%ED%94%84%ED%81%B4%EB%9F%BD/final.html">
+        <img src="./%EC%9D%BC%EB%B3%B8%20%EA%B5%AC%EB%A7%88%EB%AA%A8%ED%86%A0%20%EA%B3%A8%ED%94%84%EC%97%AC%ED%96%89%20%ED%95%98%EA%B8%B0%20%EC%A2%8B%EC%9D%80%205%EA%B0%9C%EC%9D%98%20%EA%B3%A8%ED%94%84%ED%81%B4%EB%9F%BD/images/thumbnail.png" alt="구마모토 골프여행 썸네일" onerror="this.style.display='none'">
+        <div class="card-body">
+          <div class="card-title">일본 구마모토 골프여행, 가봐야 할 클럽 5곳</div>
+          <div class="card-desc">구마모토에서 플레이할 수 있는 엄선된 골프 클럽 5곳을 코스 특징, 접근성, 예약 팁과 함께 소개합니다.</div>
+          <span class="card-link">자세히 보기 →</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</body>
+</html>

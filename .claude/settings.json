@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python \"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\ī���� �������� ����ҹ湮���� ������ 5����\\\\images\\\\gen_thumbnail.py\")",
+      "PowerShell(python \"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\ī���� �������� ����ҹ湮���� ������ 5����\\\\images\\\\gen_body1.py\")",
+      "PowerShell(python \"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\ī���� �������� ����ҹ湮���� ������ 5����\\\\images\\\\gen_body2.py\")",
+      "PowerShell(python \"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\ī���� �������� ����ҹ湮���� ������ 5����\\\\images\\\\gen_body3.py\")",
+      "PowerShell(python \"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\ī���� �������� ����ҹ湮���� ������ 5����\\\\images\\\\gen_body4.py\")",
+      "PowerShell(python \"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\ī���� �������� ����ҹ湮���� ������ 5����\\\\images\\\\gen_body5.py\")",
+      "PowerShell(python \"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\ī���� �������� ����ҹ湮���� ������ 5����\\\\images\\\\gen_body6.py\")",
+      "PowerShell(Start-Process \"d:\\\\Dropbox\\\\Ai study\\\\2606_��Ű��_���αױ۾��⿡����Ʈ\\\\blog\\\\output\\\\ī���� �������� ����ҹ湮���� ������ 5����\\\\final.html\")",
+      "Read(//d/Dropbox/Ai study/2606_��Ű��_���αױ۾��⿡����Ʈ/blog/**)",
+      "Read(//c/Program Files/Git/bin/**)",
+      "PowerShell($env:PATH += \";C:\\\\Program Files\\\\Git\\\\bin\"; git --version)"
+    ]
+  }
+}
